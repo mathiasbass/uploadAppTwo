@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Space+Mono&display=swap');
+
+h1 {
+    color: aliceblue;
+    font-family: "Kdam Thmor Pro" sans-serif;
+    font-size:50px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-conteudo {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border: #a640a6 solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro" sans-serif;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.banner-1 {
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/afb8718c-e2db-11ed-aa6e-9587410378a2/guardioes-da-galaxia-3-groot.jpg')
+}
+
+.banner-2 {
+    background-image: url('https://1.bp.blogspot.com/-FCuzW5-ofiY/YU5hVjhQQqI/AAAAAAADDrM/qws0sX_AJC4dnfj4w7UKw5pRVyyExKOyQCLcBGAsYHQ/s1079/guardioes3-gamora-nebula.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://pipocasclub.com.br/wp-content/uploads/2023/05/guardians-of-the-galaxy-vol-3-adam-warlock-suit.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://cdn.ome.lt/vABYIjcpNLsBusiM-73a1MfHYA8=/fit-in/837x500/smart/uploads/conteudo/fotos/guardioes-da-galaxia-vol-3-cenas-pos-creditos1.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://cdn.ome.lt/Pbbpc7PFiGw2HVVCedq4TZURS38=/1200x630/smart/extras/conteudos/guardioes-da-galaxia-vol-3-zoe-saldana-despedida.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://i.uai.com.br/XJhPAbNDEroeDkUkzX6R0LqvzbU=/1200x900/smart/imgsapp2.uai.com.br/app/noticia_133890394703/2023/05/04/322634/chris-pratt-como-senhor-das-estrelas_1_84485.jpg');
+}
+
+.banner-7 {
+    background-image: url('https://tm.ibxk.com.br/2023/01/04/04171809666201.jpg?ims=1200x675');
+}
+
+.banner-8 {
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2023%2F05%2F03%2FKaren-Gillan-Guardians-of-the-Galaxy-050323.jpg');
+}
+
+.banner-9 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2022/12/20221205-fjopuqwx0aaorby-555x555.jpeg');
+}
